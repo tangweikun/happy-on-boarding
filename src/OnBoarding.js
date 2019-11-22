@@ -15,7 +15,7 @@ export function OnBoarding(props) {
   }
 
   return (
-    <div className="App">
+    <div className="on-boarding-wrapper">
       <div className="Background" data-step={step}></div>
       <Slides step={step} />
       <Footer
