@@ -3,8 +3,8 @@ import "./Foo.scss";
 
 export function Slide(props) {
   return (
-    <div className="Slide">
-      <div className="Text">{props.text}</div>
+    <div className="slide">
+      <div className="text">{props.text}</div>
     </div>
   );
 }

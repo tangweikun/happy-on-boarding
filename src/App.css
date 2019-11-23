@@ -1,6 +1,12 @@
 .App {
-  text-align: center;
-  padding: 40px;
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  background: #121212;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
 }
 
 .App-logo {

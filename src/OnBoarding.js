@@ -3,7 +3,7 @@ import "./Foo.scss";
 import { Slides } from "./Slides";
 import { Footer } from "./Footer";
 
-export function OnBoarding(props) {
+export function OnBoarding() {
   const [step, setStep] = useState(1);
 
   function increaseStep() {
@@ -16,7 +16,7 @@ export function OnBoarding(props) {
 
   return (
     <div className="on-boarding-wrapper">
-      <div className="Background" data-step={step}></div>
+      <div className="animation-bg" data-step={step}></div>
       <Slides step={step} />
       <Footer
         increaseStep={increaseStep}
