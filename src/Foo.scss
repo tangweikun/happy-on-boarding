@@ -11,8 +11,6 @@
 
   .animation-bg {
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 600%;
     opacity: 0.9;
@@ -51,24 +49,24 @@
     position: relative;
 
     &[data-step="1"] {
-      .Wrapper {
+      .wrapper {
         left: 0%;
       }
     }
 
     &[data-step="2"] {
-      .Wrapper {
+      .wrapper {
         left: -100%;
       }
     }
 
     &[data-step="3"] {
-      .Wrapper {
+      .wrapper {
         left: -200%;
       }
     }
 
-    .Wrapper {
+    .wrapper {
       display: flex;
       position: relative;
       left: 0%;

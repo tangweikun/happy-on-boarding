@@ -5,7 +5,7 @@ import { Slide } from "./Slide";
 export function Slides(props) {
   return (
     <div className="slides" data-step={props.step}>
-      <div className="Wrapper">
+      <div className="wrapper">
         <Slide
           text="The first step of onboarding, that is a thing."
           icon="comments-o"
