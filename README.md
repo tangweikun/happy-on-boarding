@@ -1,68 +1,86 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# On Boarding
 
-## Available Scripts
+> 难易程度: ⭐
 
-In the project directory, you can run:
+[在线预览](https://tangweikun.github.io/happy-on-boarding)
 
-### `yarn start`
+<img src="./screenshot/demo.gif" alt='' width="300">
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 相关项目
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- [Happy Clicker](https://juejin.im/post/5dce16b8f265da0bc53c76b7)
 
-### `yarn test`
+  一个简单的计数器，可以'加一'，'减一'和'重置'
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Beautify Stars](https://juejin.im/post/5dd203e3f265da0bde5c1ee0)
 
-### `yarn build`
+  一个简单的评分组件
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Find Square Game](https://juejin.im/post/5dd6084af265da47d32ba5aa)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+  点击方块小游戏
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 快速开始
 
-### `yarn eject`
+1. 克隆仓库
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+git clone git@github.com:tangweikun/happy-on-boarding.git
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. 安装依赖包
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+cd happy-on-boarding
+yarn | npm install
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+3. 本地运行
 
-## Learn More
+```bash
+yarn start | npm run start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. 在浏览器中打开[http://localhost:3000](http://localhost:3000)查看效果
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 依赖库
 
-### Code Splitting
+| library         | version   |
+| --------------- | --------- |
+| `react`         | `16.11.0` |
+| `react-dom`     | `16.11.0` |
+| `react-scripts` | `3.2.0`   |
+| `gh-pages`      | `2.1.1`   |
+| `node-sass`     | `4.13.0`  |
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## 部署到 Github Pages
 
-### Analyzing the Bundle Size
+1. 添加 `homepage` 到 `package.json`
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+```json
+"homepage": "https://myusername.github.io/my-app",
+```
 
-### Making a Progressive Web App
+2. 安装 `gh-pages`
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+```bash
+yarn add gh-pages
+```
 
-### Advanced Configuration
+3. 在`package.json`中添加部署脚本
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+```json
+"scripts": {
++   "predeploy": "npm run build",
++   "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+```
 
-### Deployment
+4. 执行 `yarn deploy`
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+```bash
+yarn deploy
+```
 
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+5. 打开`https://myusername.github.io/my-app`查看效果
