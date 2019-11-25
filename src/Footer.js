@@ -1,7 +1,7 @@
 import React from "react";
 import CHEVRON_LEFT from "./assets/chevron-left.svg";
 import CHEVRON_RIGHT from "./assets/chevron-right.svg";
-import "./Foo.scss";
+import "./OnBoarding.scss";
 
 export function Footer(props) {
   return (

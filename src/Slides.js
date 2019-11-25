@@ -1,5 +1,5 @@
 import React from "react";
-import "./Foo.scss";
+import "./OnBoarding.scss";
 import { Slide } from "./Slide";
 
 export function Slides(props) {

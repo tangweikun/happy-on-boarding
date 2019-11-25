@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Foo.scss";
+import "./OnBoarding.scss";
 import { Slides } from "./Slides";
 import { Footer } from "./Footer";
 
