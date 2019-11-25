@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/happy-on-boarding/static/css/main.673aaa39.chunk.css",
+    "main.js": "/happy-on-boarding/static/js/main.a87f748f.chunk.js",
+    "main.js.map": "/happy-on-boarding/static/js/main.a87f748f.chunk.js.map",
+    "runtime-main.js": "/happy-on-boarding/static/js/runtime-main.6bee9d49.js",
+    "runtime-main.js.map": "/happy-on-boarding/static/js/runtime-main.6bee9d49.js.map",
+    "static/js/2.1dd51b37.chunk.js": "/happy-on-boarding/static/js/2.1dd51b37.chunk.js",
+    "static/js/2.1dd51b37.chunk.js.map": "/happy-on-boarding/static/js/2.1dd51b37.chunk.js.map",
+    "index.html": "/happy-on-boarding/index.html",
+    "precache-manifest.b8aeb43547da171b36124154a867ad23.js": "/happy-on-boarding/precache-manifest.b8aeb43547da171b36124154a867ad23.js",
+    "service-worker.js": "/happy-on-boarding/service-worker.js",
+    "static/css/main.673aaa39.chunk.css.map": "/happy-on-boarding/static/css/main.673aaa39.chunk.css.map",
+    "static/media/chevron-left.svg": "/happy-on-boarding/static/media/chevron-left.e96af375.svg",
+    "static/media/chevron-right.svg": "/happy-on-boarding/static/media/chevron-right.0d29f83c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6bee9d49.js",
+    "static/js/2.1dd51b37.chunk.js",
+    "static/css/main.673aaa39.chunk.css",
+    "static/js/main.a87f748f.chunk.js"
+  ]
+}
